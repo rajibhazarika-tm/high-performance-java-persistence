@@ -8,7 +8,9 @@ import javax.persistence.*;
 @Entity(name = "Attachment")
 @Table(name = "attachment")
 public class Attachment {
-
+    /*
+     * this is a test
+     */
     @Id
     @GeneratedValue
     private Long id;
