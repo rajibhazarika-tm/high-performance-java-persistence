@@ -5,6 +5,11 @@ import javax.persistence.*;
 /**
  * @author Vlad Mihalcea
  */
+/**
+ * Entity attachment
+ * @author owner
+ *
+ */
 @Entity(name = "Attachment")
 @Table(name = "attachment")
 public class Attachment {
